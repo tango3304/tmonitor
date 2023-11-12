@@ -9,9 +9,9 @@ pip install psycopg2
 
 pip install scapy
 
-◇tmonitor/tmonitor/module/postgresql.py
-
 # PostgreSQL Infomation [PostgreSQL情報]を記載
+
+◇tmonitor/tmonitor/module/postgresql.py
 
 USERID = ''		# postgreSQLログイン情報
 
