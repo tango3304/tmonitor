@@ -9,11 +9,6 @@ description = "AliveMonitoring Module"
 requires-python = ">=2.0"
 license = {file = "LICENSE"}
 readme = "README.md"
-dependencies = [
-    "tping @ git+https://github.com/tango3304/tping.git",
-    "psycopg2",
-    "scapy",
-]
 
 [tool.hatch.metadata]
 allow-direct-references = true
