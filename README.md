@@ -37,7 +37,7 @@ pip install wxPython
 
 ◇tmonitor/tmonitor/graph.py
 
-  target_ipaddress = '' #Serace IPaddress
+  target_ipaddress = '' #検索IPアドレス
 
   year = #年
 
