@@ -21,24 +21,22 @@ pip install wxPython
 
 ◇tmonitor/tmonitor/module/postgresql.py
 
-USERID = ''		# postgreSQLログイン情報
+  USERID = ''		# postgreSQLログイン情報
 
-PASSWORD = ''	# postgreSQLパスワード情報
+  PASSWORD = ''	# postgreSQLパスワード情報
 
-IPADDRESS = ''	# postgreSQLIPアドレス情報
+  IPADDRESS = ''	# postgreSQLIPアドレス情報
 
-PORT = ''		# postgreSQLポート番号情報
+  PORT = ''		# postgreSQLポート番号情報
 
-DATABASE = ''	# postgreSQLデータベース情報
-
-
+  DATABASE = ''	# postgreSQLデータベース情報
 
 ◇tmonitor/tmonitor/graph.py
 
-target_ipaddress = '' #Serace IPaddress
+  target_ipaddress = '' #Serace IPaddress
 
-year = #年
+  year = #年
 
-month = #月
+  month = #月
 
-day = #日
+  day = #日
