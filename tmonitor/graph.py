@@ -65,7 +65,7 @@ class AliveMonitoringGraph:
 
 			#Graph Create [グラフ作成]
 				figure, axes = pyplot.subplots(figsize=(15,6.35), dpi=100)
-				axes.plot(time, status_flag)
+				axes.plot(time, status_flag, linewidth=3)
 				axes.set_title('Alive Monitoring')
 				axes.set_xlim([0, time_length])
 				pyplot.xticks(rotation=90)
