@@ -31,6 +31,8 @@ pip install wxPython
 
   DATABASE = ''	# postgreSQLデータベース情報
 
+# PostgreSQL Get ValuesData Infomation [PostgreSQLデータ値取得情報]を記載
+
 ◇tmonitor/tmonitor/graph.py
 
   target_ipaddress = '' #Serace IPaddress
