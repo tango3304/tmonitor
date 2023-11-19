@@ -22,7 +22,6 @@ class PostgreSQLConnection:
 			exit(1)
 		except:
 		# Get ErrorMessage [エラーメッセージ取得]
-			# get_system_information.GetSystemMessages.get_error_message()
 			exc_type, exc_message, exc_object = exc_info()
 			exc_list = format_exception_only(exc_type, exc_message)
 			error_message = ''.join(exc_message for exc_message in exc_list)
@@ -48,7 +47,7 @@ class PostgreSQLinsert:
 					con_cur.execute(insert_sql)
 					con.commit()
 		except:
-			# Get ErrorMessage [エラーメッセージ取得]
+		# Get ErrorMessage [エラーメッセージ取得]
 			exc_type, exc_message, exc_object = exc_info()
 			exc_list = format_exception_only(exc_type, exc_message)
 			error_message = ''.join(exc_message for exc_message in exc_list)
@@ -85,7 +84,7 @@ class PostgreSQLselect:
 
 					return select_values
 		except:
-			# Get ErrorMessage [エラーメッセージ取得]
+		# Get ErrorMessage [エラーメッセージ取得]
 			exc_type, exc_message, exc_object = exc_info()
 			exc_list = format_exception_only(exc_type, exc_message)
 			error_message = ''.join(exc_message for exc_message in exc_list)
@@ -110,7 +109,7 @@ class PostgreSQLdelete:
 					con_cur.execute(delete_sql)
 					con.commit()
 		except:
-			# Get ErrorMessage [エラーメッセージ取得]
+		# Get ErrorMessage [エラーメッセージ取得]
 			exc_type, exc_message, exc_object = exc_info()
 			exc_list = format_exception_only(exc_type, exc_message)
 			error_message = ''.join(exc_message for exc_message in exc_list)
