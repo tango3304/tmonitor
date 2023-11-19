@@ -31,6 +31,7 @@ PORT = ''		# postgreSQLポート番号情報
 
 DATABASE = ''	# postgreSQLデータベース情報
 
+
 ◇tmonitor/tmonitor/graph.py
 
 target_ipaddress = '' #Serace IPaddress
